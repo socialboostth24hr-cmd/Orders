@@ -1,32 +1,25 @@
 const params =
-new URLSearchParams(
-window.location.search
-);
+new URLSearchParams(window.location.search);
 
 const price =
 params.get("price") || "0";
 
 const order =
-params.get("order") || "FF-XXXX";
+params.get("order") || "FF0000";
 
-document.getElementById(
-"price"
-).innerText =
+document.getElementById("price").innerText =
 "฿" + price;
 
-document.getElementById(
-"orderId"
-).innerText =
+document.getElementById("order").innerText =
 order;
 
-// ===== QR =====
+const phone = "0991301221";
 
-const phone =
-"0991301221";
+const qr =
+"https://promptpay.io/" +
+phone +
+"/" +
+price;
 
-const qrUrl =
-`https://promptpay.io/${phone}/${price}`;
-
-document.getElementById(
-"qrImage"
-).src = qrUrl;
+document.getElementById("qrImage").src =
+qr;
