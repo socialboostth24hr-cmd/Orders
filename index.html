@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="th">
-
 <head>
 
 <meta charset="UTF-8">
@@ -8,17 +7,128 @@
 <meta name="viewport"
 content="width=device-width, initial-scale=1.0">
 
-<title>Friend Follow Payment</title>
+<title>Friend Follow</title>
 
-<link rel="stylesheet" href="style.css">
+<style>
+
+body{
+
+margin:0;
+font-family:sans-serif;
+
+background:
+linear-gradient(
+180deg,
+#dcecff,
+#ffd6ef
+);
+
+display:flex;
+justify-content:center;
+align-items:center;
+
+min-height:100vh;
+}
+
+.card{
+
+width:360px;
+max-width:95%;
+
+background:white;
+
+border-radius:35px;
+
+padding:30px;
+
+text-align:center;
+
+box-shadow:
+0 10px 40px rgba(255,182,220,.35);
+}
+
+.logo{
+
+font-size:42px;
+font-weight:900;
+
+background:
+linear-gradient(
+90deg,
+#79c9ff,
+#ff6ecf
+);
+
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+
+.price{
+
+font-size:58px;
+font-weight:900;
+
+margin-top:20px;
+
+background:
+linear-gradient(
+90deg,
+#79c9ff,
+#ff6ecf
+);
+
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+
+.qr{
+
+margin-top:25px;
+position:relative;
+}
+
+.qr img{
+
+width:260px;
+border-radius:25px;
+}
+
+.overlay{
+
+position:absolute;
+
+bottom:12px;
+left:50%;
+
+transform:translateX(-50%);
+
+background:white;
+
+padding:10px 16px;
+
+border-radius:18px;
+
+font-weight:bold;
+
+font-size:14px;
+
+color:#ff4fb2;
+}
+
+.footer{
+
+margin-top:25px;
+
+font-weight:bold;
+
+color:#ff4fb2;
+}
+
+</style>
 
 </head>
 
 <body>
-
-<div class="bg1"></div>
-<div class="bg2"></div>
-<div class="bg3"></div>
 
 <div class="card">
 
@@ -26,25 +136,13 @@ content="width=device-width, initial-scale=1.0">
 Friend Follow
 </div>
 
-<div class="sub">
-ระบบชำระเงินดิจิทัลแบบปลอดภัย
+<div class="price">
+฿249
 </div>
 
-<div class="status">
-รอการชำระเงิน
-</div>
+<div class="qr">
 
-<div class="price" id="price">
-฿0
-</div>
-
-<div class="order" id="order">
-FF0000
-</div>
-
-<div class="qr-box">
-
-<img id="qrImage">
+<img src="https://promptpay.io/0991301221/249">
 
 <div class="overlay">
 
@@ -58,56 +156,15 @@ Friend Follow<br>
 
 </div>
 
-<div class="bank-text">
-รองรับทุกธนาคาร และ TrueMoney Wallet
-</div>
-
-<div class="banks">
-
-<div class="bank">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Kbank_logo.png/240px-Kbank_logo.png">
-<span>KBank</span>
-</div>
-
-<div class="bank">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/SCB_Logo.svg/240px-SCB_Logo.svg.png">
-<span>SCB</span>
-</div>
-
-<div class="bank">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Krungthai_Bank_logo.svg/240px-Krungthai_Bank_logo.svg.png">
-<span>KTB</span>
-</div>
-
-<div class="bank">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Bangkokbanklogo.png/240px-Bangkokbanklogo.png">
-<span>BBL</span>
-</div>
-
-<div class="bank">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Bank_of_Ayudhya_logo.svg/240px-Bank_of_Ayudhya_logo.svg.png">
-<span>BAY</span>
-</div>
-
-<div class="bank">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/TMBThanachart_logo.svg/240px-TMBThanachart_logo.svg.png">
-<span>TTB</span>
-</div>
-
-<div class="bank">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/TrueMoney_Wallet.svg/240px-TrueMoney_Wallet.svg.png">
-<span>TrueMoney</span>
-</div>
-
-</div>
-
 <div class="footer">
-🌸 โอนแล้วส่งสลิปให้แอดมินด้วยนะคะ 🌸
-</div>
+
+รองรับทุกธนาคาร<br>
+
+และ TrueMoney Wallet
 
 </div>
 
-<script src="script.js"></script>
+</div>
 
 </body>
 </html>
