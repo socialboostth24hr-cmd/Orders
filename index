@@ -1,55 +1,110 @@
-<div class="bank-title">
+<!DOCTYPE html>
+<html lang="th">
+<head>
 
-รองรับการชำระเงิน
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<title>Friend Follow Payment</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="bg-bubble bubble1"></div>
+<div class="bg-bubble bubble2"></div>
+<div class="bg-bubble bubble3"></div>
+
+<div class="card">
+
+<div class="logo">
+Friend Follow
+</div>
+
+<div class="subtitle">
+ระบบชำระเงินดิจิทัลแบบปลอดภัย
+</div>
+
+<div class="status">
+รอการชำระเงิน
+</div>
+
+<div class="price" id="price">
+฿0
+</div>
+
+<div class="order" id="order">
+ORDER-ID
+</div>
+
+<div class="qr-box">
+
+<img id="qrImage">
+
+<div class="overlay">
+
+💖 โอนให้ร้าน<br>
+
+Friend Follow<br>
+
+เท่านั้น 💖
+
+</div>
+
+</div>
+
+<div class="bank-text">
+รองรับทุกธนาคาร และ TrueMoney Wallet
 </div>
 
 <div class="banks">
 
 <div class="bank">
-<img src="https://www.kasikornbank.com/SiteCollectionDocuments/about/img/logo.png">
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Kbank_logo.png">
 <span>KBank</span>
 </div>
 
 <div class="bank">
-<img src="https://www.scb.co.th/content/dam/scb/personal-banking/images/logo.png">
+<img src="https://upload.wikimedia.org/wikipedia/en/f/f8/SCB_Logo.svg">
 <span>SCB</span>
 </div>
 
 <div class="bank">
-<img src="https://www.ktb.co.th/ktb/images/logo.png">
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/8f/Krungthai_Bank_logo.svg">
 <span>KTB</span>
 </div>
 
 <div class="bank">
-<img src="https://www.bangkokbank.com/-/media/images/logo-bbl.png">
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/2e/Bangkokbanklogo.png">
 <span>BBL</span>
 </div>
 
 <div class="bank">
-<img src="https://www.krungsri.com/getmedia/logo.png">
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Bank_of_Ayudhya_logo.svg">
 <span>BAY</span>
 </div>
 
 <div class="bank">
-<img src="https://www.ttbbank.com/logo.png">
+<img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/TMBThanachart_logo.svg">
 <span>TTB</span>
 </div>
 
 <div class="bank">
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/TrueMoney_Logo.svg/512px-TrueMoney_Logo.svg.png">
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/11/TrueMoney_Wallet.svg">
 <span>TrueMoney</span>
 </div>
 
 </div>
 
 <div class="footer">
-
 🌸 โอนแล้วส่งสลิปให้แอดมินด้วยนะคะ 🌸
-
 </div>
 
 </div>
+
+<script src="script.js"></script>
 
 </body>
 </html>
