@@ -157,24 +157,24 @@ display:block;
 
 position:absolute;
 
-top:50%;
+bottom:12px;
 left:50%;
 
-transform:translate(-50%,-50%);
+transform:translateX(-50%);
 
-background:rgba(255,255,255,.93);
+background:rgba(255,255,255,.95);
 
-padding:12px 18px;
+padding:8px 14px;
 
-border-radius:20px;
+border-radius:14px;
 
 font-weight:bold;
 
-font-size:15px;
+font-size:13px;
 
 color:#ff4fb2;
 
-line-height:1.7;
+line-height:1.5;
 
 box-shadow:
 0 4px 15px rgba(0,0,0,.1);
