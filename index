@@ -1,0 +1,55 @@
+<div class="bank-title">
+
+รองรับการชำระเงิน
+
+</div>
+
+<div class="banks">
+
+<div class="bank">
+<img src="https://www.kasikornbank.com/SiteCollectionDocuments/about/img/logo.png">
+<span>KBank</span>
+</div>
+
+<div class="bank">
+<img src="https://www.scb.co.th/content/dam/scb/personal-banking/images/logo.png">
+<span>SCB</span>
+</div>
+
+<div class="bank">
+<img src="https://www.ktb.co.th/ktb/images/logo.png">
+<span>KTB</span>
+</div>
+
+<div class="bank">
+<img src="https://www.bangkokbank.com/-/media/images/logo-bbl.png">
+<span>BBL</span>
+</div>
+
+<div class="bank">
+<img src="https://www.krungsri.com/getmedia/logo.png">
+<span>BAY</span>
+</div>
+
+<div class="bank">
+<img src="https://www.ttbbank.com/logo.png">
+<span>TTB</span>
+</div>
+
+<div class="bank">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/TrueMoney_Logo.svg/512px-TrueMoney_Logo.svg.png">
+<span>TrueMoney</span>
+</div>
+
+</div>
+
+<div class="footer">
+
+🌸 โอนแล้วส่งสลิปให้แอดมินด้วยนะคะ 🌸
+
+</div>
+
+</div>
+
+</body>
+</html>
